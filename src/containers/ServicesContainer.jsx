@@ -5,7 +5,7 @@ import TitlePageComponent from "../components/TitlePage/TitlePageComponent";
 import { servicesData } from "../utils/data";
 import BannerComponent from "../components/Banner/BannerComponent";
 import AboutComponent from "../components/About/AboutComponent";
-import SeoComponent from "../components/SEO/SeoComponent";
+import SeoComponent from "../components/Seo/SeoComponent";
 
 const schemaOurServices = {
   "@context": "https://schema.org",
@@ -21,7 +21,7 @@ const ServicesContainer = () => {
       <SeoComponent
         title="Halaman Layanan"
         description="Ini adalah halaman layanan kami"
-        keywords="layanan, layanan"
+        keywords="layanan, services"
         schema={schemaOurServices}
       />
       <AboutComponent title={"Services"} subtitle={"Home / Services"} />

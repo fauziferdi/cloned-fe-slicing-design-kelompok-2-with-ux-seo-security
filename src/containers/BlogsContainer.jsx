@@ -3,7 +3,7 @@ import BlogTopComponent from "../components/BlogTop/BlogTopComponent";
 import BlogBottomComponent from "../components/BlogBottom/BlogBottomComponent";
 import TitlePageComponent from "../components/TitlePage/TitlePageComponent";
 import AboutComponent from "../components/About/AboutComponent";
-import SeoComponent from "../components/SEO/SeoComponent";
+import SeoComponent from "../components/Seo/SeoComponent";
 
 const schemaBlogs = {
   "@context": "https://schema.org",

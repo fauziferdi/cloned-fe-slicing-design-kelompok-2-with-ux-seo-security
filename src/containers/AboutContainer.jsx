@@ -4,7 +4,7 @@ import AboutUS from "../components/AboutUs/AboutUsComponent";
 import Card from "../components/Card/CardComponent";
 import { leadersData } from "../utils/data";
 import BannerComponent from "../components/Banner/BannerComponent";
-import SeoComponent from "../components/SEO/SeoComponent";
+import SeoComponent from "../components/Seo/SeoComponent";
 
 const AboutContainer = () => {
   const schemaAbout = {

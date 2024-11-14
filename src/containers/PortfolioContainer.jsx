@@ -2,7 +2,7 @@ import React from "react";
 import OurWorkComponent from "../components/OurWork/OurWorkComponent";
 import AboutComponent from "../components/About/AboutComponent";
 import BannerComponent from "../components/Banner/BannerComponent";
-import SeoComponent from "../components/SEO/SeoComponent";
+import SeoComponent from "../components/Seo/SeoComponent";
 
 const schemaPortofolio = {
   "@context": "https://schema.org",

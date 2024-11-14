@@ -3,7 +3,7 @@ import "../components/Contact/FormContactStyles.css";
 import AboutComponent from "../components/About/AboutComponent";
 import BannerComponent from "../components/Banner/BannerComponent";
 import FormContactComponent from "../components/Contact/FormContactComponent";
-import SeoComponent from "../components/SEO/SeoComponent";
+import SeoComponent from "../components/Seo/SeoComponent";
 
 const schemaContact = {
   "@context": "https://schema.org",
@@ -19,7 +19,7 @@ const ContactContainer = () => {
       <SeoComponent
         title="Halaman Kontak"
         description="Ini adalah halaman kontak kami"
-        keywords="kontak, informasi"
+        keywords="kontak, informasi kontak"
         schema={schemaContact}
       />
       <AboutComponent title="Contact" subtitle="Home / Contact" />

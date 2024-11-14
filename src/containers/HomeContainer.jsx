@@ -10,7 +10,7 @@ import FormContactComponent from "../components/Contact/FormContactComponent";
 import BannerComponent from "../components/Banner/BannerComponent";
 import TestimonialComponent from "../components/Testimonial/TestimonialComponent";
 import BlogBottomComponenet from "../components/BlogBottom/BlogBottomComponent";
-import SeoComponent from "../components/SEO/SeoComponent";
+import SeoComponent from "../components/Seo/SeoComponent";
 
 const schemaHome = {
   "@context": "https://schema.org",
