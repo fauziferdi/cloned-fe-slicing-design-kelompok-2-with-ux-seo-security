@@ -16,7 +16,7 @@ const schemaHome = {
   "@context": "https://schema.org",
   "@type": "HomePage",
   name: "Halaman Utama",
-  description: "Ini adalah halaman daftar Home",
+  description: "Ini adalah halaman utama",
   url: "https://fe-slicing-design-kelompok-2.vercel.app/",
 };
 const HomeContainer = () => {
@@ -24,7 +24,7 @@ const HomeContainer = () => {
     <>
       <SeoComponent
         title="Halaman Utama"
-        description="Ini adalah halaman daftar Home"
+        description="Ini adalah halaman utama"
         keywords="home, utama"
         schema={schemaHome}
       />
